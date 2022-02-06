@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-color: black;
+    transition: background 0.4s ease-in-out;
+}
+
+/*  MAIN HEADER SECTION */
+
+.logo {
+    color: white;
+    font-size: 1.7rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.logo h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.logo h2 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 3rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.email {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: greenyellow;
+}
+
+/*  CAAROUSEL SECTION */
+
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    margin-top: 3rem;
+}
+
+.carousel {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(0);
+    transition: transform 0.4s ease-in-out;
+}
+
+.slide {
+    width: 100vw;
+    text-align: center;
+}
+
+.slide img {
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 1rem;
+}
+
+.slide h2 {
+    color: white;
+    font-size: 3.5rem;
+    margin-top: -3rem;
+}
+
+.slide a {
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+.arrow {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 5rem;
+    color: white;
+    opacity: 0.5;
+}
+
+.left-arrow {
+    left: 2rem;
+}
+
+.right-arrow {
+    right: 2rem;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,h2, h3, h4 {
+    text-align: center;
+  }
+
+  .mainbutton{
+    background-color: black;
+    position: absolute;
+    font-family: "Segoe UI", sans-serif;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    width: 50px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.form-control{
+  width: 300px;
+  margin: 1px;
+  padding: 1px;
+}
